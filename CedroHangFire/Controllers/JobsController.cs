@@ -111,7 +111,7 @@ namespace CedroHangFire.Controllers
                     return View(model);
                 }
 
-                return RedirectToAction("/hangfire/");
+                return RedirectToAction("","hangfire");
             }
             catch (Exception ex)
             {
