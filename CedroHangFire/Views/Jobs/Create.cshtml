@@ -1,0 +1,47 @@
+@model CedroHangFire.Models.JobViewModel
+
+<h2>Criar novo Job</h2>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-controller="Jobs" asp-antiforgery="true" asp-action="Create" enctype="multipart/form-data" method="post">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="DllFile"></label>
+                <input asp-for="DllFile" class="form-control" />
+                <span asp-validation-for="DllFile" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DependenciesFile"></label>
+                <input asp-for="DependenciesFile" class="form-control" />
+                <span asp-validation-for="DependenciesFile" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TypeJob"></label>
+                <select asp-for="TypeJob" class="form-control" asp-items="Html.GetEnumSelectList<CedroHangFire.Models.EnumTypeJob>()"></select>
+                <span asp-validation-for="TypeJob" class="text-danger"></span>
+
+            </div>
+
+            <div id="DivCronExpression" class="form-group" style="display:none">
+                <label asp-for="CronExpression"></label>
+                <input asp-for="CronExpression" class="form-control" />
+                <span asp-validation-for="CronExpression" class="text-danger"></span>
+            </div>
+
+            <div  id="DivDateTime" class="form-group" style="display:none">
+                <label asp-for="DateTime"></label>
+                <input asp-for="DateTime" class="form-control" />
+                <span asp-validation-for="DateTime" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>

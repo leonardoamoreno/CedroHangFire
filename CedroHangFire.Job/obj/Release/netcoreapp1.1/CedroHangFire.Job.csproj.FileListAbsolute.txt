@@ -1,0 +1,7 @@
+C:\Projetos\CedroHangFire\CedroHangFire.Job\bin\Release\netcoreapp1.1\CedroHangFire.Job.deps.json
+C:\Projetos\CedroHangFire\CedroHangFire.Job\bin\Release\netcoreapp1.1\CedroHangFire.Job.dll
+C:\Projetos\CedroHangFire\CedroHangFire.Job\bin\Release\netcoreapp1.1\CedroHangFire.Job.pdb
+C:\Projetos\CedroHangFire\CedroHangFire.Job\obj\Release\netcoreapp1.1\CedroHangFire.Job.csprojResolveAssemblyReference.cache
+C:\Projetos\CedroHangFire\CedroHangFire.Job\obj\Release\netcoreapp1.1\CedroHangFire.Job.AssemblyInfo.cs
+C:\Projetos\CedroHangFire\CedroHangFire.Job\obj\Release\netcoreapp1.1\CedroHangFire.Job.dll
+C:\Projetos\CedroHangFire\CedroHangFire.Job\obj\Release\netcoreapp1.1\CedroHangFire.Job.pdb
